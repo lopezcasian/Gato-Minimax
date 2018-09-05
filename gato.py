@@ -62,7 +62,7 @@ class Juego: #Clase juego
 		vtn.destroy() #Se destruye la ventana anterior
 
 		# Creando nueva ventana
-		self.vtnTurno = Tk(); 
+		self.vtnTurno = Tk()
 		self.vtnTurno.title('Elegir turno')
 		self.vtnTurno.geometry("412x400")
 
@@ -91,7 +91,7 @@ class Juego: #Clase juego
 		self.vtnTurno.destroy() # Destruye la ventana anterior
 
 		#Se crea una nueva ventana
-		self.vtnJuego = Tk();
+		self.vtnJuego = Tk()
 		self.vtnJuego.title('A jugar!')
 		self.vtnJuego.geometry("580x470")
 
@@ -232,7 +232,7 @@ class Juego: #Clase juego
 
 	def mejorMovimiento(self, tab):
 		# Inicializando valores
-		mejorVal = -1000;
+		mejorVal = -1000
 		mejorMov = {
 			'fila':-1,
 			'columna':-1
